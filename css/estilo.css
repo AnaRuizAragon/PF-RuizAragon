@@ -138,37 +138,14 @@ h2{
 
 .play{
     position: absolute;
-    bottom: 470px;
-    right: 500px;
+    bottom: 505px;
+    right: 510px;
 }
 
 .categoria li{
     list-style-type: circle;
     display: list-item;
-}
-
-.tematica{
-    position: absolute;
-    bottom: 125px;
-    right: 950px;
-}
-
-.tematicas{
-    position: absolute;
-    bottom: -31px;
-    right: 820px;
-}
-
-.asistencia{
-    position: absolute;
-    bottom: 125px;
-    right: 650px;
-}
-
-.asistencias{
-    position: absolute;
-    bottom: -31px;
-    right: 630px;
+    text-align: left
 }
 
 .news img{
