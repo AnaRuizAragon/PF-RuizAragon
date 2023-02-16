@@ -91,6 +91,7 @@ p{
     text-align: left;
     text-decoration: solid;
     font-weight: bold;
+    margin-left: 10px;
 }
 
 .col{
@@ -151,6 +152,10 @@ h2{
 .news img{
     width: 236px;
     height: 200px;
+}
+
+.buscarjuego{
+    margin-left: 10px;
 }
 
 .aviso{
