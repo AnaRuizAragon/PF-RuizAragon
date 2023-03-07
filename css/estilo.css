@@ -90,6 +90,9 @@ body main .barra2 {
   margin: 15px 20px;
   padding-inline-start: 5px;
 }
+body main h1 {
+  text-align: left;
+}
 body main h2 {
   text-align: left;
 }
