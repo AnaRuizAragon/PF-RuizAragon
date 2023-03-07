@@ -44,22 +44,27 @@ body main .botones {
   border-radius: 4px;
   margin: auto;
 }
-body main .boton {
+body main .btn-primary {
   background-color: rgb(22, 182, 22);
   height: 90px;
   width: 150px;
   border: 1px white;
   border-radius: 4px;
 }
-body main .boton p {
+body main .btn-primary p {
   text-align: center;
   color: white;
   font-size: 20px;
   margin-top: 10px;
-  padding-top: 10%;
+  padding-top: 1%;
   animation-name: texto;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
+}
+body main .btn-primary:hover {
+  background-color: greenyellow;
+  border: 1px solid black;
+  color: black;
 }
 @keyframes texto {
   0% {
