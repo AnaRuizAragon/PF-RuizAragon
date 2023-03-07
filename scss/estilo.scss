@@ -1,0 +1,213 @@
+@import "condicionales", "extend", "bucles", "maps", "mixin";
+
+body{
+
+    header{
+.logo{
+    width: 80px;
+    height: 60px;
+}
+
+.fondoHeader{
+    background-color: greenyellow;
+}
+
+a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.botonMio{
+    background-color: aquamarine;
+}
+
+.botonMio:hover{
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.nav-item2{
+    text-decoration: underline;
+}
+    }
+
+    main{
+        width: 100vw;
+    
+h2{
+    font-style: italic;
+    text-align: center;
+    color: black;
+}
+
+p{
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 50%;
+    color: black;
+}
+
+.lorem{
+    color: white;
+}
+.botones{
+    border: none;
+    width: 700px;
+    height: 300px;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.boton{
+    background-color: rgb(22, 182, 22);
+    height: 90px;
+    width: 150px;
+    border: 1px white;
+    border-radius: 4px;
+}
+
+.boton p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 10%;
+    animation-name: texto;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes texto{
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+
+.noticias{
+    text-align: left;
+    text-decoration: solid;
+    font-weight: bold;
+    margin-left: 10px;
+    font-style: italic;
+    text-align: center;
+    color: black;
+}
+
+.col{
+    padding: 15px;
+}
+
+.barra2{
+    margin: 15px 20px;
+    padding-inline-start: 5px;
+}
+
+h2{
+    text-align: left;
+}
+.caja{
+    border: none;
+    width: 80vw;
+    margin: auto;
+    border-radius: 4px;
+    background-color: beige;
+}
+
+.caja p{
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 50%;
+}
+
+.botonjugar{
+    background-color: rgb(22, 182, 22);
+    height: 90px;
+    width: 150px;
+    border: 1px white;
+    border-radius: 4px
+    
+}
+
+.botonjugar p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 10%;
+}
+
+.categoria li{
+    list-style-type: circle;
+    display: list-item;
+    text-align: left
+}
+
+.news img{
+    width: 236px;
+    height: 200px;
+}
+
+.buscarjuego{
+    margin-left: 10px;
+}
+
+.aviso{
+    text-align: left;
+    text-decoration: solid;
+    margin-left: 2%;
+}
+
+.oferta{
+    width: 380px;
+    height: 350px;
+}
+
+.ofertazo{
+    width: 350px;
+    height: 250px;
+}
+
+.nuevo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nuevoJuego{
+    width: 315px;
+    height: 250px;
+    margin: 10px;
+}
+
+.oferta{
+    transition: height 0.5s ease 0s, width 0.7s ease 0s;
+}
+
+.oferta:hover{
+    height: 506px;
+    width: 550px;
+}
+    }
+
+    footer{
+        .redes{
+            border: 30px;
+            height: 30px;
+            width: 40px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .fondoFooter{
+            background-color: rgb(16, 178, 184);
+            text-align: center;
+        }
+    }
+}
