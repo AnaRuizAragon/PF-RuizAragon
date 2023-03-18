@@ -49,12 +49,14 @@ p{
     color: black;
 }
 
-h5{
+h4{
     text-align: left;
     margin-left: 10%;
     margin-right: 50%;
     color: white;
 }
+
+
 
 .grand{
     color: white;
@@ -116,7 +118,6 @@ h5{
     }
 }
 
-
 .noticias{
     text-align: left;
     text-decoration: solid;
@@ -141,12 +142,21 @@ h5{
 h2{
     text-align: left;
 }
-.caja{
-    border: none;
-    width: 80vw;
-    margin: auto;
-    border-radius: 4px;
-    background-color: beige;
+
+.game{
+    background-color: rgb(235, 214, 189);
+}
+
+.dbdaylight{
+    height: 400px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    margin-right: 20%;
 }
 
 .caja p{
@@ -178,10 +188,6 @@ h2{
     text-align: left
 }
 
-.news img{
-    width: 236px;
-    height: 200px;
-}
 
 .buscarjuego{
     margin-left: 10px;
@@ -203,20 +209,37 @@ h2{
     height: 250px;
 }
 
+.mostrar{
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 10%;
+    margin-right: 5%;
+    color: rgb(7, 212, 212);
+}
+
 .nuevo{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-.nuevoJuego{
-    width: 315px;
-    height: 250px;
-    margin: 10px;
+    justify-content: space-between;
 }
 
 .oferta{
     transition: height 0.5s ease 0s, width 0.7s ease 0s;
+}
+
+.news{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.soporte{
+    height: 300px;
+    width: 350px;
+}
+
+.rounded-start{
+   height: 210px;
 }
 
 .oferta:hover{

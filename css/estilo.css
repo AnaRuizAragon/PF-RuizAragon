@@ -34,7 +34,7 @@ body main p {
   margin-right: 50%;
   color: black;
 }
-body main h5 {
+body main h4 {
   text-align: left;
   margin-left: 10%;
   margin-right: 50%;
@@ -113,12 +113,17 @@ body main h1 {
 body main h2 {
   text-align: left;
 }
-body main .caja {
-  border: none;
-  width: 80vw;
-  margin: auto;
-  border-radius: 4px;
-  background-color: beige;
+body main .game {
+  background-color: rgb(235, 214, 189);
+}
+body main .dbdaylight {
+  height: 400px;
+}
+body main .card-title {
+  text-align: center;
+}
+body main .card-text {
+  margin-right: 20%;
 }
 body main .caja p {
   text-align: left;
@@ -144,10 +149,6 @@ body main .categoria li {
   display: list-item;
   text-align: left;
 }
-body main .news img {
-  width: 236px;
-  height: 200px;
-}
 body main .buscarjuego {
   margin-left: 10px;
 }
@@ -164,18 +165,33 @@ body main .ofertazo {
   width: 350px;
   height: 250px;
 }
+body main .mostrar {
+  text-align: left;
+  text-decoration: underline;
+  margin-top: 10%;
+  margin-right: 5%;
+  color: rgb(7, 212, 212);
+}
 body main .nuevo {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-body main .nuevoJuego {
-  width: 315px;
-  height: 250px;
-  margin: 10px;
+  justify-content: space-between;
 }
 body main .oferta {
   transition: height 0.5s ease 0s, width 0.7s ease 0s;
+}
+body main .news {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body main .soporte {
+  height: 300px;
+  width: 350px;
+}
+body main .rounded-start {
+  height: 210px;
 }
 body main .oferta:hover {
   height: 506px;
