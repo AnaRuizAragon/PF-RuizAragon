@@ -49,6 +49,18 @@ p{
     color: black;
 }
 
+h5{
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 50%;
+    color: white;
+}
+
+.grand{
+    color: white;
+    background-color: rgb(112, 103, 103);
+}
+
 .lorem{
     color: white;
 }
@@ -58,7 +70,15 @@ p{
     height: 300px;
     border-radius: 4px;
     margin: auto;
-    
+}
+
+.carousel-item img{
+    border-radius: 100px;
+}
+
+.grandf{
+    height: 770px;
+    width: 728px;
 }
 
 .btn-primary{

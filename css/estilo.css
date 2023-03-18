@@ -34,6 +34,16 @@ body main p {
   margin-right: 50%;
   color: black;
 }
+body main h5 {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 50%;
+  color: white;
+}
+body main .grand {
+  color: white;
+  background-color: rgb(112, 103, 103);
+}
 body main .lorem {
   color: white;
 }
@@ -43,6 +53,13 @@ body main .botones {
   height: 300px;
   border-radius: 4px;
   margin: auto;
+}
+body main .carousel-item img {
+  border-radius: 100px;
+}
+body main .grandf {
+  height: 770px;
+  width: 728px;
 }
 body main .btn-primary {
   background-color: rgb(22, 182, 22);
